@@ -25,13 +25,13 @@ const Home = () => {
             />
           </h1>
           <p>
-            Hi! <br></br> My name is Ashley, and blah blah blah blah blah blah.
+            Hi! <br></br> My name is Ashley, and I am someone who enjoys programming not only as a hobby,<br></br> but a career as well.
           </p>
           <p align="LEFT">
-            Within my last few application developer roles, I blah blah blah blah blah blah blah.
+            Within my last few roles, I have been lucky enough to learn more of the following languages/frameworks displayed on right.
           </p>
           <p>
-            One thing you should know about me is that I love my dog, Patsy! blah blah blah
+            I hope you can tell from this portfolio that programming allows me to express my style while also growing in my problem solving skills
           </p>
         </div>
         <div className="stage-cube-cont">

@@ -1,3 +1,8 @@
+.wrapper{
+    margin-left:auto;
+    margin-right: auto;
+    width:960px;
+}
 .myPhones{
     height: 100%;
     width:100%;
@@ -8,9 +13,9 @@
     .text-zone {
       position: absolute;
       left: 20%;
-      top: 45%;
+      top: 50%;
       transform: translateY(-50%);
-      width: 40%;
+      width: 42%;
       max-height: 100%;
     }
     
@@ -97,8 +102,8 @@
     }
   }
   .contact-form {
-    width: 100%;
-    margin-top: 50%;
+    width: 400px;
+    margin-top: 400px;
   
     ul {
       padding: 0;
