@@ -26,7 +26,7 @@ const Home = () => {
                 <img src={LogoTitle}/>
                 <AnimatedLetters letterClass={letterClass} strArray={nameArray} inx={15}/> </h1>
                 <h2> developer/ dog mom</h2>
-                <Link to="/contact" className='flat-button'> Contact Me</Link>
+                <Link to="/react-portfolio/contact" className='flat-button'> Contact Me</Link>
             </div>
             {/* <Logo/> */}
             <img src={flowers} className="myFlowers"/>
