@@ -12,13 +12,13 @@ const Sidebar = () => (
             <img className = "sublogo"src={LogoSubtitle} alt="logo"/>
         </Link>
         <nav>
-        <NavLink extract ="true" activeclassname="active" to="/">
+        <NavLink extract ="true" activeclassname="active" to="/react-portfolio/">
             <FontAwesomeIcon icon={faHome} color="#402872"/>
         </NavLink>
-        <NavLink extract ="true" activeclassname="active" className ="about-link" to="/about">
+        <NavLink extract ="true" activeclassname="active" className ="about-link" to="/react-portfolio/about">
             <FontAwesomeIcon icon={faUser} color="#402872"/>
         </NavLink>
-        <NavLink extract ="true" activeclassname="active" className="contact-link"to="/contact">
+        <NavLink extract ="true" activeclassname="active" className="contact-link"to="/react-portfolio/contact">
             <FontAwesomeIcon icon={faEnvelope} color="#402872"/>
         </NavLink>
         </nav>
