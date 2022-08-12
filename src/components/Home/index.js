@@ -10,7 +10,8 @@ const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const hiArray = ['H', 'i', ','];
     const imArray = ['I','\'','m'];
-    const nameArray = ['s','h', 'l', 'e', 'y', ' ', 'm', 'o', 'y', 'e', 'r', 's']
+    const fnameArray = ['s','h', 'l', 'e', 'y', ' ']
+    const lnameArray = ['m', 'o', 'y', 'e', 'r', 's']
     //const jobArray = ['w', 'e', 'b', ' ', 'd','e','v','l','o','p','e','r']
 
     useEffect(() => {
@@ -21,10 +22,11 @@ const Home = () => {
 
     return (
         <div className = "container home-page">
-            <div className="text-zone">
+            <div className="home-text-zone">
                 <h1> <AnimatedLetters letterClass={letterClass} strArray={hiArray} inx={1}/>  <br/> <AnimatedLetters letterClass={letterClass} strArray={imArray} inx={2}/> 
                 <img src={LogoTitle}/>
-                <AnimatedLetters letterClass={letterClass} strArray={nameArray} inx={15}/> </h1>
+                <AnimatedLetters letterClass={letterClass} strArray={fnameArray} inx={7}/> <br></br>
+                <AnimatedLetters letterClass={letterClass} strArray={lnameArray} inx={7}/> </h1>
                 <h2> developer/ dog mom</h2>
                 <Link to="/react-portfolio/contact" className='flat-button'> Contact Me</Link>
             </div>
