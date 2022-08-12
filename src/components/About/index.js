@@ -15,8 +15,8 @@ const Home = () => {
       }, [])
 
     return (
-        <div className = "container home-page">
-           <div className="text-zone">
+        <div className = "container about-page">
+           <div className="about-text-zone">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
